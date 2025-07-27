@@ -120,3 +120,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* --- ADD THIS NEW CODE AT THE END --- */
+@layer utilities {
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  .animate-blink {
+    animation: blink 1.5s linear infinite;
+  }
+}
