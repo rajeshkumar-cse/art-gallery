@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Next.js build / cache
+.next/
+out/
+
+# OS / editor
+.DS_Store
+.vscode/
